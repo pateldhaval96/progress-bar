@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.about-us {
+	padding: 100px 0px;
+}
+.container {
+	max-width: 1320px!important;
+}
+
+.abt-skill .skill {
+    margin-bottom: 35px;
+    position: relative;
+    overflow: hidden;
+}
+.abt-skill .skill:before {
+    width: 100%;
+    height: 5px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: #959595;
+    bottom: 0;
+}
+.abt-skill .skill > p {
+    font-weight: 700;
+    color: #1a1716;
+    margin: 0;
+}
+.abt-skill .skill1 .skill-count1, .abt-skill .skill2 .skill-count2, .abt-skill .skill3 .skill-count3, .abt-skill .skill4 .skill-count4, .abt-skill .skill5 .skill-count5, .abt-skill .skill6 .skill-count6 {
+    right: 0;
+}
+.abt-skill .skill-bar span {
+    position: absolute;
+    top: -30px;
+    padding: 0;
+    font-size: 18px;
+    padding: 3px 0;
+    font-weight: 500;
+}
+
+.abt-skill .skill-bar {
+    position: relative;
+}
+.abt-skill .skill-bar {
+    width: 100%;
+    height: 5px;
+    background: #3f4f5c;
+    display: block;
+    position: relative;
+}
+.abt-skill .skill1 {
+    width: 95%;
+}
+.abt-skill .skill2 {
+    width: 85%!important;
+}
+.abt-skill .skill3 {
+    width: 75%!important;
+}
+.abt-skill .skill4 {
+    width: 65%!important;
+}
+.abt-skill .skill5 {
+    width: 80%!important;
+}
+.abt-skill .skill6 {
+    width: 90%!important;
+}
